@@ -17,9 +17,14 @@ repositories {
 }
 
 dependencies {
+    compile(group = "com.baomidou", name = "mybatis-plus-generator", version = "3.3.2")
     compile(group = "log4j", name = "log4j", version = "1.2.17")
     compile(group = "mysql", name = "mysql-connector-java")
     compile(group = "com.baomidou", name = "mybatis-plus-boot-starter", version = "3.4.2")
+    compile(group="io.jsonwebtoken", name = "jjwt",version="0.7.0")
+    implementation("org.springframework.boot:spring-boot-starter-security")
+    implementation("junit:junit:4.12")
+    implementation("javax.xml.bind:jaxb-api:2.1")
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.jetbrains.kotlin:kotlin-reflect")

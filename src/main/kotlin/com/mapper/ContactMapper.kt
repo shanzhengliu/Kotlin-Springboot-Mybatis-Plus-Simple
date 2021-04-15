@@ -1,6 +1,6 @@
 package com.mapper;
 
-import com.domain.User;
+import com.domain.Contact;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -11,4 +11,4 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author sam
  * @since 2021-04-15
  */
-interface UserMapper : BaseMapper<User>
+interface ContactMapper : BaseMapper<Contact>
