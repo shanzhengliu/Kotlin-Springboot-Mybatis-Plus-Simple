@@ -22,6 +22,7 @@ dependencies {
     compile(group = "mysql", name = "mysql-connector-java")
     compile(group = "com.baomidou", name = "mybatis-plus-boot-starter", version = "3.4.2")
     compile(group="io.jsonwebtoken", name = "jjwt",version="0.7.0")
+    implementation ("org.json:json:20171018")
     implementation("org.springframework.boot:spring-boot-starter-security")
     implementation("junit:junit:4.12")
     implementation("javax.xml.bind:jaxb-api:2.1")
